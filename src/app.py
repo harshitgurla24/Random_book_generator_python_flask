@@ -31,4 +31,4 @@ def home():
     return render_template("index.html", book=book)
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run()
